@@ -61,8 +61,8 @@
 
 ```js
 var - not safe, gets hoisted, can be redeclared, can be reassigned
-let - safe, does not get hoisted, cannot be redeclared, can be reassigned
-const - safe, does not get hoisted, cannot be redeclared, cannot be reassigned
+let - safe, does get hoisted but is in the temporal dead zone (TDZ), cannot be redeclared, can be reassigned
+const - safe, does get hoisted but is in the temporal dead zone (TDZ), cannot be redeclared, cannot be reassigned
 ```
 
 ### Hoisting
